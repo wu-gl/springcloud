@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="685b0247-dfb0-414c-a817-ddc629f50e8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hmily-demo-springcloud-account/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hmily-demo-springcloud-account/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmily-demo-springcloud-inventory/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hmily-demo-springcloud-inventory/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmily-demo-springcloud-inventory/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hmily-demo-springcloud-inventory/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/java/org/dromara/hmily/demo/springcloud/order/client/AccountClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/java/org/dromara/hmily/demo/springcloud/order/client/AccountClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:/Java/apache-maven-3.5.3\.m2\repository" />
+        <option name="mavenHome" value="E:/Java/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="E:\Java\apache-maven-3.5.3\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xv8E8cGSn4HgFCKAaN8tUNTpwS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudHmilyOrderApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hmily-demo-springcloud-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dromara.hmily.demo.springcloud.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dromara.hmily.demo.springcloud.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHmilyAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hmily-demo-springcloud-account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dromara.hmily.demo.springcloud.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dromara.hmily.demo.springcloud.account.SpringCloudHmilyAccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHmilyInventoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hmily-demo-springcloud-inventory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dromara.hmily.demo.springcloud.inventory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dromara.hmily.demo.springcloud.inventory.SpringCloudHmilyInventoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudHmilyOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hmily-demo-springcloud-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dromara.hmily.demo.springcloud.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.dromara.hmily.demo.springcloud.order.SpringCloudHmilyOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringCloudHmilyOrderApplication" />
+        <item itemvalue="Spring Boot.SpringCloudHmilyInventoryApplication" />
+        <item itemvalue="Spring Boot.SpringCloudHmilyAccountApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.24729522" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="685b0247-dfb0-414c-a817-ddc629f50e8e" name="Default Changelist" comment="" />
+      <created>1581915093565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581915093565</updated>
+      <workItem from="1581915097729" duration="4084000" />
+      <workItem from="1581936948535" duration="235000" />
+      <workItem from="1581937427553" duration="2812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="452" height="448" key="DebuggerActiveHint" timestamp="1581938534737">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="452" height="448" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1581938534737" />
+    <state width="973" height="289" key="GridCell.Tab.0.bottom" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.0.center" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.0.left" timestamp="1581938593993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581938593993" />
+    <state width="973" height="289" key="GridCell.Tab.0.right" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.1.bottom" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.1.center" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.1.left" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.1.right" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.2.bottom" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.2.center" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.2.left" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state width="973" height="289" key="GridCell.Tab.2.right" timestamp="1581938593994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="973" height="289" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1581938593994" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1581936842955">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581936842955" />
+    <state x="303" y="90" width="759" height="548" key="find.popup" timestamp="1581937807599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="303" y="90" width="759" height="548" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581937807599" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/java/org/dromara/hmily/demo/springcloud/order/service/impl/OrderServiceImpl.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/java/org/dromara/hmily/demo/springcloud/order/service/impl/PaymentServiceImpl.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hmily-demo-springcloud-order/src/main/java/org/dromara/hmily/demo/springcloud/order/service/impl/PaymentServiceImpl.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-springcloud.iml" filepath="$PROJECT_DIR$/hmily-demo-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-springcloud-account/hmily-demo-springcloud-account.iml" filepath="$PROJECT_DIR$/hmily-demo-springcloud-account/hmily-demo-springcloud-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-springcloud-eureka/hmily-demo-springcloud-eureka.iml" filepath="$PROJECT_DIR$/hmily-demo-springcloud-eureka/hmily-demo-springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-springcloud-inventory/hmily-demo-springcloud-inventory.iml" filepath="$PROJECT_DIR$/hmily-demo-springcloud-inventory/hmily-demo-springcloud-inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hmily-demo-springcloud-order/hmily-demo-springcloud-order.iml" filepath="$PROJECT_DIR$/hmily-demo-springcloud-order/hmily-demo-springcloud-order.iml" />
+    </modules>
+  </component>
+</project>

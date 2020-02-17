@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MqParent.iml" filepath="$PROJECT_DIR$/MqParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderProducer/orderProducer.iml" filepath="$PROJECT_DIR$/orderProducer/orderProducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scoreConsumer/scoreConsumer.iml" filepath="$PROJECT_DIR$/scoreConsumer/scoreConsumer.iml" />
+    </modules>
+  </component>
+</project>

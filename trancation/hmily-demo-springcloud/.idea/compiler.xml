@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hmily-demo-springcloud-order" />
+        <module name="hmily-demo-springcloud-eureka" />
+        <module name="hmily-demo-springcloud-account" />
+        <module name="hmily-demo-springcloud-inventory" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hmily-demo-springcloud" target="1.8" />
+      <module name="hmily-demo-springcloud-account" target="1.8" />
+      <module name="hmily-demo-springcloud-eureka" target="1.8" />
+      <module name="hmily-demo-springcloud-inventory" target="1.8" />
+      <module name="hmily-demo-springcloud-order" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hmily-demo-springcloud-account" options="-parameters" />
+      <module name="hmily-demo-springcloud-eureka" options="-parameters" />
+      <module name="hmily-demo-springcloud-inventory" options="-parameters" />
+      <module name="hmily-demo-springcloud-order" options="-parameters" />
+    </option>
+  </component>
+</project>

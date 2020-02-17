@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user
+  cloud:
+    consul:
+      discovery:
+        instance-id: ${spring.application.name}:${server.port}
+        health-check-interval: 10s
+        health-check-headers:
+          X-Config-Token: 6442e58b-d1ea-182e-cfa5-cf9cddef0722
+        health-check-url: http://192.168.3.214:8081/
+        tags: foo=bar, baz=1
+        prefer-ip-address: true
+        prefer-agent-address: true
+
+    loadbalancer:
+      ribbon:
+        enabled: false
+applications: consulhystrixclient
+
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+turbine:
+  aggregator:
+    clusterConfig: ${spring.application.name}
+  appConfig: ${spring.application.name}
+  cluster-name-expression: new String("default")

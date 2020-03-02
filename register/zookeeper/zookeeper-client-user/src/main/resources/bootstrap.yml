@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zookeeper-client-user
+  cloud:
+    zookeeper:
+      connect-string: 192.168.3.22:2181
+      config:
+        enabled: true
+      discovery:
+        enabled: true
+        root: config

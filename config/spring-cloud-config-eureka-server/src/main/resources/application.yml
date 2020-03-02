@@ -1,0 +1,15 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: spring-cloud-eureka-server
+    appname: 注册中心
+  client:
+    registerWithEureka: false # 单点的时候设置为 false 禁止注册自身
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka
+    registry-fetch-interval-seconds: 10
+  server:
+    enableSelfPreservation: false
+    evictionIntervalTimerInMs: 4000

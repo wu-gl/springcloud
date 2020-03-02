@@ -18,12 +18,11 @@ spring:
 
     loadbalancer:
       ribbon:
-        enabled: false
-applications: consulhystrixclient
+        enabled: true
 
 feign:
   hystrix:
-    enabled: true
+    enabled: true   #feign启动hystrix
 
 management:
   endpoints:
@@ -33,5 +32,5 @@ management:
 turbine:
   aggregator:
     clusterConfig: ${spring.application.name}
-  appConfig: ${spring.application.name}
+  appConfig: ${spring.application.name}       #clusterConfig和appConfig部分必须匹配，因此将逗号分隔的服务标识列表放在单独的配置属性中是有用的。
   cluster-name-expression: new String("default")

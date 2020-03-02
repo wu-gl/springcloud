@@ -34,3 +34,21 @@ turbine:
     clusterConfig: ${spring.application.name}
   appConfig: ${spring.application.name}       #clusterConfig和appConfig部分必须匹配，因此将逗号分隔的服务标识列表放在单独的配置属性中是有用的。
   cluster-name-expression: new String("default")
+
+
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+        errorDecoder: com.example.SimpleErrorDecoder
+        retryer: com.example.SimpleRetryer
+        requestInterceptors:
+          - com.example.FooRequestInterceptor
+          - com.example.BarRequestInterceptor
+        decode404: false
+        encoder: com.example.SimpleEncoder
+        decoder: com.example.SimpleDecoder
+        contract: com.example.SimpleContract
